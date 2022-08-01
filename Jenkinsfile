@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('stage1') {
       steps {
-        bat 'echo "this is build ${BUILD_NUMBER} and ${DEMO1}"'
+        echo '"this is build ${BUILD_NUMBER} and ${DEMO1}"'
       }
     }
 
